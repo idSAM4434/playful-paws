@@ -1,0 +1,106 @@
+  /* Estilos para el menú */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:auto;
+    background-color: rgba(128, 48, 165, 0.64);
+    position:fixed;
+    top: 5;
+    width: 100%;
+  }
+
+  li {
+    float: left;
+    width: 25%; 
+    text-align: center;
+  }
+
+  li a {
+    text-align: center;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    text-align: center;
+    background-color: rgb(91, 0, 152);
+  }
+
+  /* Estilos para el contenido */
+  .content {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .gustos {
+    height: 100vh; 
+    background-color: #fff;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+  }
+
+  .plan{ 
+    height: 100vh; 
+    background-color: #fff;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+  }
+
+  .futuro{
+    height: 100vh; 
+    background-color: #fff;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+  }
+
+  .yo {
+    height: 100vh;
+    width: 100%; 
+    background-color: #fff;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+  }
+
+  h1 {
+    height: 7px;
+    background-color: rgba(112, 27, 133, 0.921);
+    color: #fff;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    margin:0vh;
+  }
+
+body {
+    background-color:blueviolet;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:fuchsia;
+}
+
+img {
+    width: 280px;
+    height: 360px;
+}
